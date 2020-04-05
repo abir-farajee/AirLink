@@ -1,0 +1,234 @@
+body {font-family: Verdana, sans-serif;
+  background: linear-gradient(to right, #006666 0%, #000066 100%);
+
+}
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff49;
+  }
+  
+  .li1 {
+    float: left;
+  }
+  .li2 {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  button a {
+    display: block;
+    color: white;
+    text-align: center;
+    
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #111;
+  }
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+
+  padding: 0px;
+ 
+}
+
+.content {
+  max-width:800px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.507);
+  padding: 40px;
+}
+
+h3 { 
+  display: block;
+  font-size: 1em;
+  margin-top: 0em;
+  margin-bottom: 0.5em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  color: #fff;
+}
+.form-inline {  
+  display: inline-flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+
+
+
+.form-inline label {
+  margin: 5px 10px 5px 0;
+}
+
+.form-inline input,select {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.form-inline button {
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white;
+  cursor: pointer;
+}
+
+.form-inline button:hover {
+  background-color: royalblue;
+}
+
+@media (max-width: 800px) {
+  .form-inline input {
+    margin: 100px 0;
+  }
+  
+  .form-inline {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: rgba(100, 193, 255, 0.548);
+}
+
+
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: rgba(100, 193, 255, 0.548);
+}
+
+
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+.marquee {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+.button {
+  background-color: rgb(214, 54, 88); /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  
+  text-align: center;
+
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  display: block;
+	vertical-align: middle;
+	margin: auto;
+	width: 300px;
+	height: 60px;
+  
+}
+
+
+
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+table {
+  table-layout: auto;
+  width: 100%;  
+}
+
+th {
+  background-color: #39387b;
+  color: white;
+  
+}
+
+td {
+ text-align: center;
+ border-bottom: 2px solid #ddd;
+ color: rgb(0, 255, 242);
+}
+
